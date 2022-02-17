@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  vives:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-17T11:27:08.549121613+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 0c2a5d22a3a077775f806d97a2881ff3d4093bc66af727577f947f3722114e6d
+    name: vives
+    urls:
+    - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/vives-1.0.0/vives-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-02-17T11:27:08.294132885+01:00"
