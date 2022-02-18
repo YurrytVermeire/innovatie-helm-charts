@@ -8,6 +8,6 @@ entries:
     digest: 0f1f49c851e0a87033fcff50ad05f62bb5747757574ff07e8237be5c6c1a9513
     name: motion-sensors
     urls:
-    - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/motion-sensors-1.0.2/motionSensors-1.0.2.tgz
+    - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/motion-sensors-1.0.2/motion-sensors-1.0.2.tgz
     version: 1.0.2
 generated: "2022-02-18T14:55:41.756120079+01:00"
