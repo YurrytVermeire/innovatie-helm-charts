@@ -3,30 +3,11 @@ entries:
   motionSensors:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-18T14:50:40.88833785+01:00"
+    created: "2022-02-18T14:55:41.942547515+01:00"
     description: Helm-charts voor het project van het innovatieteam
     digest: 0f1f49c851e0a87033fcff50ad05f62bb5747757574ff07e8237be5c6c1a9513
     name: motionSensors
     urls:
     - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/motionSensors-1.0.2/motionSensors-1.0.2.tgz
     version: 1.0.2
-  vives:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-02-18T14:14:12.976341814+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 46ee71cf1f6699111f1cd92d2f79b512328442a66b3f17c98841894bf02acdbb
-    name: vives
-    urls:
-    - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/vives-1.0.1/vives-1.0.1.tgz
-    version: 1.0.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-02-18T14:14:12.820754806+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 0c2a5d22a3a077775f806d97a2881ff3d4093bc66af727577f947f3722114e6d
-    name: vives
-    urls:
-    - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/vives-1.0.0/vives-1.0.0.tgz
-    version: 1.0.0
-generated: "2022-02-18T14:14:12.388894834+01:00"
+generated: "2022-02-18T14:55:41.756120079+01:00"
