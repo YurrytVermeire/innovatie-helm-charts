@@ -1,5 +1,15 @@
 apiVersion: v1
 entries:
+  motionSensors:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-18T14:50:40.88833785+01:00"
+    description: Helm-charts voor het project van het innovatieteam
+    digest: 0f1f49c851e0a87033fcff50ad05f62bb5747757574ff07e8237be5c6c1a9513
+    name: motionSensors
+    urls:
+    - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/motionSensors-1.0.2/motionSensors-1.0.2.tgz
+    version: 1.0.2
   vives:
   - apiVersion: v2
     appVersion: 1.16.0
