@@ -3,11 +3,20 @@ entries:
   motion-sensors:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-18T16:56:45.944543117+01:00"
+    created: "2022-02-22T15:52:56.036977626+01:00"
+    description: Helm-charts voor het project van het innovatieteam
+    digest: 897e0db673fbf0265e092aa667fcdd2b609560a4532c857fc7b40dd1c805bee2
+    name: motion-sensors
+    urls:
+    - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/motion-sensors-2.0.0/motion-sensors-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-22T15:52:55.883839894+01:00"
     description: Helm-charts voor het project van het innovatieteam
     digest: 7a8ce91f5aaacf2fc84fd1c59e4a5032366fe668f07d7c77f585fb327f72420d
     name: motion-sensors
     urls:
     - https://github.com/YurrytVermeire/innovatie-helm-charts/releases/download/motion-sensors-1.0.3/motion-sensors-1.0.3.tgz
     version: 1.0.3
-generated: "2022-02-18T16:56:45.51482039+01:00"
+generated: "2022-02-22T15:52:55.603822615+01:00"
