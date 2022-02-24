@@ -8,11 +8,36 @@ spec:
     image: {{ .Values.image.repository }}
     imagePullPolicy: {{ .Values.image.pullPolicy }}
     env:
-      - name: MONGODB
+      - name: INFLUX_SERVER
         valueFrom:
           secretKeyRef:
             name: flask-pod-secret
-            key: database_url
+            key: influx_server
+      - name: INFLUX_TOKEN
+        valueFrom:
+          secretKeyRef:
+            name: flask-pod-secret
+            key: influx_token
+      - name: INFLUX_ORG
+        valueFrom:
+          secretKeyRef:
+            name: flask-pod-secret
+            key: influx_org 
+      - name: MQTT_SERVER
+        valueFrom:
+          secretKeyRef:
+            name: flask-pod-secret
+            key: mqtt_server
+      - name: MQTT_PASS
+        valueFrom:
+          secretKeyRef:
+            name: flask-pod-secret
+            key: mqtt_pass
+      - name: MQTT_USER
+        valueFrom:
+          secretKeyRef:
+            name: flask-pod-secret
+            key: mqtt_user
       - name: FLASK_ENV
         valueFrom:
           configMapKeyRef:
@@ -23,5 +48,15 @@ spec:
           configMapKeyRef:
             name: flask-pod-configmap
             key: flask_debug  
+      - name: INFLUX_BUCKET
+        valueFrom:
+          configMapKeyRef:
+            name: flask-pod-configmap
+            key: influx_bucket
+      - name: MQTT_PORT
+        valueFrom:
+          configMapKeyRef:
+            name: flask-pod-configmap
+            key: mqtt_port
   imagePullSecrets:
   - name: regcred

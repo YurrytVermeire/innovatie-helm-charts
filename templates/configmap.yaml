@@ -3,5 +3,7 @@ kind: ConfigMap
 metadata:
   name: flask-pod-configmap
 data:
-  flask_env: development
-  flask_debug: "0"
+  flask_env: {{ .Values.flask_env }}
+  flask_debug: "{{ .Values.flask_debug }}"
+  influx_bucket: {{ .Values.influx_bucket }}
+  mqtt_port: "{{ .Values.mqtt_port }}"

@@ -38,7 +38,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 4444
+  port: 80
 
 ingress:
   enabled: false
@@ -81,4 +81,13 @@ tolerations: []
 
 affinity: {}
 
-database_url: database_url
+influx_server: influx_server
+influx_org: influx_org
+influx_bucket: influx_bucket
+influx_token: influx_token
+mqtt_user: mqtt_user
+mqtt_port: mqtt_port
+mqtt_pass: mqtt_pass
+mqtt_server: mqtt_server
+flask_env: flask_env
+flask_debug: flask_debug
